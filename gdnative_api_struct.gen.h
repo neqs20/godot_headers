@@ -889,6 +889,7 @@ typedef struct godot_gdnative_core_api_struct {
 	godot_string (*godot_string_to_upper)(const godot_string *p_self);
 	godot_string (*godot_string_get_basename)(const godot_string *p_self);
 	godot_string (*godot_string_get_extension)(const godot_string *p_self);
+	godot_string (*godot_string_lcut)(godot_string *p_self, godot_int p_pos);
 	godot_string (*godot_string_left)(const godot_string *p_self, godot_int p_pos);
 	wchar_t (*godot_string_ord_at)(const godot_string *p_self, godot_int p_idx);
 	godot_string (*godot_string_plus_file)(const godot_string *p_self, const godot_string *p_file);
